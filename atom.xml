@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>John Moeller</title>
+    <link href="/atom.xml" rel="self" />
+    <link href="" />
+    <id>/atom.xml</id>
+    <author>
+        <name>John Moeller</name>
+        <email>spam@fishcorn.info</email>
+    </author>
+    <updated>2016-09-01T00:00:00Z</updated>
+    <entry>
+    <title>Continuous Kernel Learning</title>
+    <link href="/pubs/2016-09-01-ckl.html" />
+    <id>/pubs/2016-09-01-ckl.html</id>
+    <published>2016-09-01T00:00:00Z</published>
+    <updated>2016-09-01T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="blog-post">
+  <h2 class="blog-post-title">
+    Continuous Kernel Learning
+  </h2>
+  <p class="blog-post-meta">
+    Published 2016-09
+    
+      by John Moeller, Vivek Srikumar, Sarathkrishna Swaminathan, Suresh Venkatasubramanian, Dustin Webb
+    
+    
+  </p>
+  <p>Kernel learning is the problem of determining the best kernel (either from a dictionary of fixed kernels, or from a smooth space of kernel representations) for a given task. In this paper, we describe a new approach to kernel learning that establishes connections between the Fourier-analytic representation of kernels arising out of Bochner's theorem and a specific kind of feed-forward network using cosine activations. We analyze the complexity of this space of hypotheses and demonstrate empirically that our approach provides scalable kernel learning superior in quality to prior approaches.</p>
+</div>
+]]></summary>
+</entry>
+
+</feed>
