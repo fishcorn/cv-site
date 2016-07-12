@@ -2,4 +2,4 @@
 title: Contact
 ---
 
-Dr. Hakyll is not to be contacted.
+You can contact me by emailing any address at fishcorn.info, or you can [follow me on twitter](http://twitter.com/moeller_ml).
