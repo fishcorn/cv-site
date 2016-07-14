@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/fishcorn/cv-site/tree/master.svg?style=svg)](https://circleci.com/gh/fishcorn/cv-site/tree/master)
+
 # Dr. Hakyll
 
 ```

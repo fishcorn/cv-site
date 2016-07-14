@@ -1,8 +1,5 @@
 machine:
 
-  ghc:
-    version: 7.10.2
-
   timezone:
     America/Denver
 
@@ -15,7 +12,7 @@ dependencies:
 test:
 
   override:
-    - stack build
+    - stack build --no-system-ghc --install-ghc
 
   post:
     - git submodule init
