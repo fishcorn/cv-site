@@ -33,10 +33,10 @@ deployment:
       - cd _site/ && git status
       - cd _site/ && git add --all
       - cd _site/ && git commit -m "Update (`date '+%F %T %Z'`) [ci skip]" || true
-      - cd _site/ && git push origin gh-pages
+      - cd _site/ && git push -v origin gh-pages
       - git status
       - git add _site/
       - git commit -m "Update _site (`date '+%F %T %Z'`) [ci skip]" || true
-      - git push origin master
+      - git push -v origin master
 
 
