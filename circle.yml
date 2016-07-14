@@ -5,6 +5,9 @@ machine:
 
 dependencies:
 
+  cache_directories:
+    - "~/.stack"
+
   override:
     - curl -sSL https://get.haskellstack.org/ | sh
     - stack setup
