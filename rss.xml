@@ -18,7 +18,7 @@
   <p class="blog-post-meta">
     Published 2016-09
     
-      by John Moeller, Vivek Srikumar, Sarathkrishna Swaminathan, Suresh Venkatasubramanian, Dustin Webb
+      by John Moeller, Vivek Srikumar, Sarathkrishna Swaminathan, Suresh Venkatasubramanian, and Dustin Webb
     
     
   </p>
@@ -27,6 +27,27 @@
 ]]></description>
     <pubDate>Thu, 01 Sep 2016 00:00:00 UT</pubDate>
     <guid>/pubs/2016-09-01-ckl.html</guid>
+    <dc:creator>John Moeller</dc:creator>
+</item>
+<item>
+    <title>A Unified View of Localized Kernel Learning</title>
+    <link>/pubs/2016-05-01-ldmkl.html</link>
+    <description><![CDATA[<div class="blog-post">
+  <h2 class="blog-post-title">
+    A Unified View of Localized Kernel Learning
+  </h2>
+  <p class="blog-post-meta">
+    Published 2016-05
+    
+      by John Moeller, Sarathkrishna Swaminathan, and Suresh Venkatasubramanian
+    
+    
+  </p>
+  <p>Multiple Kernel Learning, or MKL, extends (kernelized) SVM by attempting to learn not only a classifier/regressor but also the best kernel for the training task, usually from a combination of existing kernel functions. Most MKL methods seek the combined kernel that performs best over every training example, sacrificing performance in some areas to seek a global optimum. Localized kernel learning (LKL) overcomes this limitation by allowing the training algorithm to match a component kernel to the examples that can exploit it best. Several approaches to the localized kernel learning problem have been explored in the last several years. We unify many of these approaches under one simple system and design a new algorithm with improved performance. We also develop enhanced versions of existing algorithms, with an eye on scalability and performance.</p>
+</div>
+]]></description>
+    <pubDate>Sun, 01 May 2016 00:00:00 UT</pubDate>
+    <guid>/pubs/2016-05-01-ldmkl.html</guid>
     <dc:creator>John Moeller</dc:creator>
 </item>
 

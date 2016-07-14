@@ -22,11 +22,32 @@
   <p class="blog-post-meta">
     Published 2016-09
     
-      by John Moeller, Vivek Srikumar, Sarathkrishna Swaminathan, Suresh Venkatasubramanian, Dustin Webb
+      by John Moeller, Vivek Srikumar, Sarathkrishna Swaminathan, Suresh Venkatasubramanian, and Dustin Webb
     
     
   </p>
   <p>Kernel learning is the problem of determining the best kernel (either from a dictionary of fixed kernels, or from a smooth space of kernel representations) for a given task. In this paper, we describe a new approach to kernel learning that establishes connections between the Fourier-analytic representation of kernels arising out of Bochner's theorem and a specific kind of feed-forward network using cosine activations. We analyze the complexity of this space of hypotheses and demonstrate empirically that our approach provides scalable kernel learning superior in quality to prior approaches.</p>
+</div>
+]]></summary>
+</entry>
+<entry>
+    <title>A Unified View of Localized Kernel Learning</title>
+    <link href="/pubs/2016-05-01-ldmkl.html" />
+    <id>/pubs/2016-05-01-ldmkl.html</id>
+    <published>2016-05-01T00:00:00Z</published>
+    <updated>2016-05-01T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="blog-post">
+  <h2 class="blog-post-title">
+    A Unified View of Localized Kernel Learning
+  </h2>
+  <p class="blog-post-meta">
+    Published 2016-05
+    
+      by John Moeller, Sarathkrishna Swaminathan, and Suresh Venkatasubramanian
+    
+    
+  </p>
+  <p>Multiple Kernel Learning, or MKL, extends (kernelized) SVM by attempting to learn not only a classifier/regressor but also the best kernel for the training task, usually from a combination of existing kernel functions. Most MKL methods seek the combined kernel that performs best over every training example, sacrificing performance in some areas to seek a global optimum. Localized kernel learning (LKL) overcomes this limitation by allowing the training algorithm to match a component kernel to the examples that can exploit it best. Several approaches to the localized kernel learning problem have been explored in the last several years. We unify many of these approaches under one simple system and design a new algorithm with improved performance. We also develop enhanced versions of existing algorithms, with an eye on scalability and performance.</p>
 </div>
 ]]></summary>
 </entry>
