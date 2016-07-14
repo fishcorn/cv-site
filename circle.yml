@@ -11,6 +11,7 @@ dependencies:
   override:
     - curl -sSL https://get.haskellstack.org/ | sh
     - stack setup
+    - stack build --no-system-ghc --install-ghc --only-dependencies
 
 test:
 
