@@ -50,6 +50,92 @@
     <guid>/pubs/2016-05-01-ldmkl.html</guid>
     <dc:creator>John Moeller</dc:creator>
 </item>
+<item>
+    <title>Certifying and Removing Disparate Impact</title>
+    <link>/pubs/2015-08-10-dispimp.html</link>
+    <description><![CDATA[<div class="blog-post">
+  <h2 class="blog-post-title">
+    Certifying and Removing Disparate Impact
+  </h2>
+  <p class="blog-post-meta">
+    Published 2015-08
+    
+      by Michael Feldman, Sorelle Friedler, John Moeller, Carlos Scheidegger, and Suresh Venkatasubramanian
+    
+    
+  </p>
+  <p>What does it mean for an algorithm to be biased? In U.S. law, unintentional bias is encoded via disparate impact, which occurs when a selection process has widely different outcomes for different groups, even as it appears to be neutral. This legal determination hinges on a definition of a protected class (ethnicity, gender) and an explicit description of the process.</p>
+<p>When computers are involved, determining disparate impact (and hence bias) is harder. It might not be possible to disclose the process. In addition, even if the process is open, it might be hard to elucidate in a legal setting how the algorithm makes its decisions. Instead of requiring access to the process, we propose making inferences based on the data it uses.</p>
+<p>We present four contributions. First, we link disparate impact to a measure of classification accuracy that while known, has received relatively little attention. Second, we propose a test for disparate impact based on how well the protected class can be predicted from the other attributes. Third, we describe methods by which data might be made unbiased. Finally, we present empirical evidence supporting the effectiveness of our test for disparate impact and our approach for both masking bias and preserving relevant information in the data. Interestingly, our approach resembles some actual selection practices that have recently received legal scrutiny.</p>
+</div>
+]]></description>
+    <pubDate>Mon, 10 Aug 2015 00:00:00 UT</pubDate>
+    <guid>/pubs/2015-08-10-dispimp.html</guid>
+    <dc:creator>John Moeller</dc:creator>
+</item>
+<item>
+    <title>A Geometric Algorithm for Scalable Multiple Kernel Learning</title>
+    <link>/pubs/2014-04-22-mwumkl.html</link>
+    <description><![CDATA[<div class="blog-post">
+  <h2 class="blog-post-title">
+    A Geometric Algorithm for Scalable Multiple Kernel Learning
+  </h2>
+  <p class="blog-post-meta">
+    Published 2014-04
+    
+      by John Moeller, Parasaran Raman, Suresh Venkatasubramanian, and Avishek Saha
+    
+    
+  </p>
+  <p>We present a geometric formulation of the Multiple Kernel Learning (MKL) problem. To do so, we reinterpret the problem of learning kernel weights as searching for a kernel that maximizes the minimum (kernel) distance between two convex polytopes. This interpretation combined with additional structural insights from our geometric formulation allows us to reduce the MKL problem to a simple optimization routine that yields provable convergence as well as quality guarantees. As a result our method scales efficiently to much larger data sets than most prior methods can handle. Empirical evaluation on eleven datasets shows that we are significantly faster and even compare favorably with an uniform unweighted combination of kernels.</p>
+</div>
+]]></description>
+    <pubDate>Tue, 22 Apr 2014 00:00:00 UT</pubDate>
+    <guid>/pubs/2014-04-22-mwumkl.html</guid>
+    <dc:creator>John Moeller</dc:creator>
+</item>
+<item>
+    <title>Approximate Bregman Near Neighbors in Sublinear Time: Beyond the Triangle Inequality</title>
+    <link>/pubs/2013-08-01-appxbreg.html</link>
+    <description><![CDATA[<div class="blog-post">
+  <h2 class="blog-post-title">
+    Approximate Bregman Near Neighbors in Sublinear Time: Beyond the Triangle Inequality
+  </h2>
+  <p class="blog-post-meta">
+    Published 2013-08
+    
+      by Amirali Abdullah, John Moeller, and Suresh Venkatasubramanian
+    
+    
+  </p>
+  <p>Bregman divergences are important distance measures that are used extensively in data-driven applications such as computer vision, text mining, and speech processing, and are a key focus of interest in machine learning. Answering nearest neighbor (NN) queries under these measures is very important in these applications and has been the subject of extensive study, but is problematic because these distance measures lack metric properties like symmetry and the triangle inequality. In this paper, we present the first provably approximate nearest-neighbor (ANN) algorithms for a broad sub-class of Bregman divergences under some assumptions. Specifically, we examine Bregman divergences which can be decomposed along each dimension and our bounds also depend on restricting the size of our allowed domain. We obtain bounds for both the regular asymmetric Bregman divergences as well as their symmetrized versions. To do so, we develop two geometric properties vital to our analysis: a reverse triangle inequality (RTI) and a relaxed triangle inequality called μ-defectiveness where μ is a domain-dependent value. Bregman divergences satisfy the RTI but not μ-defectiveness. However, we show that the square root of a Bregman divergence does satisfy μ-defectiveness. This allows us to then utilize both properties in an efficient search data structure that follows the general two-stage paradigm of a ring-tree decomposition followed by a quad tree search used in previous near-neighbor algorithms for Euclidean space and spaces of bounded doubling dimension. Our first algorithm resolves a query for a d-dimensional (1+ε)-ANN in <span class="math inline"><em>O</em>((<em>μ</em>log(<em>n</em>)/<em>ε</em>)<sup><em>O</em>(<em>d</em>)</sup>)</span> time and <span class="math inline"><em>O</em>(<em>n</em>log<sup><em>d</em><em>m</em><em>i</em><em>n</em><em>u</em><em>s</em>1</sup><em>n</em>)</span> space and holds for generic μ-defective distance measures satisfying a RTI. Our second algorithm is more specific in analysis to the Bregman divergences and uses a further structural parameter, the maximum ratio of second derivatives over each dimension of our allowed domain <span class="math inline">(<em>c</em><sub>0</sub>)</span>. This allows us to locate a (1+ε)-ANN in <span class="math inline"><em>O</em>(log(<em>n</em>))</span> time and <span class="math inline"><em>O</em>(<em>n</em>)</span> space, where there is a further <span class="math inline">(<em>c</em><sub>0</sub>)<sup><em>d</em></sup></span> factor in the big-Oh for the query time.</p>
+</div>
+]]></description>
+    <pubDate>Thu, 01 Aug 2013 00:00:00 UT</pubDate>
+    <guid>/pubs/2013-08-01-appxbreg.html</guid>
+    <dc:creator>John Moeller</dc:creator>
+</item>
+<item>
+    <title>Horoball Hulls and Extents in Positive Definite Space</title>
+    <link>/pubs/2011-08-15-horoball.html</link>
+    <description><![CDATA[<div class="blog-post">
+  <h2 class="blog-post-title">
+    Horoball Hulls and Extents in Positive Definite Space
+  </h2>
+  <p class="blog-post-meta">
+    Published 2011-08
+    
+      by P. Thomas Fletcher, John Moeller, Jeff M. Phillips, and Suresh Venkatasubramanian
+    
+    
+  </p>
+  <p>The space of positive definite matrices P(n) is a Riemannian manifold with variable nonpositive curvature. It includes Euclidean space and hyperbolic space as submanifolds, and poses significant challenges for the design of algorithms for data analysis. In this paper, we develop foundational geometric structures and algorithms for analyzing collections of such matrices. A key technical contribution of this work is the use of horoballs, a natural generalization of halfspaces for non-positively curved Riemannian manifolds. We propose generalizations of the notion of a convex hull and a centerpoint and approximations of these structures using horoballs and based on novel decompositions of P(n). This leads to an algorithm for approximate hulls using a generalization of extents.</p>
+</div>
+]]></description>
+    <pubDate>Mon, 15 Aug 2011 00:00:00 UT</pubDate>
+    <guid>/pubs/2011-08-15-horoball.html</guid>
+    <dc:creator>John Moeller</dc:creator>
+</item>
 
     </channel>
 </rss>
