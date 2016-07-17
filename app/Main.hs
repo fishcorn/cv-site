@@ -2,8 +2,10 @@
 
 module Main (main) where
 
+import Data.List (isSuffixOf)
 import Data.Monoid (mappend)
 import Hakyll
+import System.FilePath.Posix (takeBaseName,takeDirectory,(</>))
 
 main :: IO ()
 main =
@@ -17,28 +19,31 @@ main =
       compile compressCssCompiler
 
     match (fromList ["about.md", "contact.md"]) $ do
-      route (setExtension "html")
+      route $ cleanRoute
       compile $ pandocCompiler
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
+        >>= cleanIndexUrls
 
     match "pubs/*" $ do
-      route (setExtension "html")
+      route $ cleanRoute
       compile $ pandocCompiler
         >>= loadAndApplyTemplate "templates/pub.html" pubContext
         >>= saveSnapshot "content"
         >>= loadAndApplyTemplate "templates/default.html" pubContext
         >>= relativizeUrls
+        >>= cleanIndexUrls
 
     match "posts/*" $ do
-      route (setExtension "html")
+      route $ cleanRoute
       compile $ pandocCompiler
         >>= loadAndApplyTemplate "templates/post.html" postContext
         >>= saveSnapshot "content"
         >>= loadAndApplyTemplate "templates/default.html" postContext
         >>= relativizeUrls
+        >>= cleanIndexUrls
         
-    create ["publications.html"] $ do
+    create ["publications/index.html"] $ do
       route idRoute
       compile $ do
         pubs <- recentFirst =<< loadAllSnapshots "pubs/*" "content"
@@ -51,8 +56,9 @@ main =
           >>= loadAndApplyTemplate "templates/pub-list.html" archiveContext
           >>= loadAndApplyTemplate "templates/default.html" archiveContext
           >>= relativizeUrls
+          >>= cleanIndexUrls
 
-    create ["posts.html"] $ do
+    create ["blog/index.html"] $ do
       route idRoute
       compile $ do
         posts <- recentFirst =<< loadAll "posts/*"
@@ -65,6 +71,7 @@ main =
           >>= loadAndApplyTemplate "templates/post-list.html" archiveContext
           >>= loadAndApplyTemplate "templates/default.html" archiveContext
           >>= relativizeUrls
+          >>= cleanIndexUrls
 
     match "index.html" $ do
       route idRoute
@@ -81,6 +88,7 @@ main =
           >>= applyAsTemplate indexContext
           >>= loadAndApplyTemplate "templates/default.html" indexContext
           >>= relativizeUrls
+          >>= cleanIndexUrls
 
     match "templates/*" (compile templateCompiler)
 
@@ -119,3 +127,24 @@ feedConfiguration =
     , feedAuthorEmail = "spam@fishcorn.info"
     , feedRoot = ""
     }
+
+cleanRoute :: Routes
+cleanRoute = customRoute createIndexRoute
+  where
+    createIndexRoute ident = takeDirectory p </> takeBaseName p </> "index.html"
+      where p = toFilePath ident
+
+cleanIndexUrls :: Item String -> Compiler (Item String)
+cleanIndexUrls = return . fmap (withUrls cleanIndex)
+
+cleanIndexHtmls :: Item String -> Compiler (Item String)
+cleanIndexHtmls = return . fmap (replaceAll pattern replacement)
+  where
+    pattern = "/index.html"
+    replacement = const "/"
+
+cleanIndex :: String -> String
+cleanIndex url
+  | idx `isSuffixOf` url = take (length url - length idx) url
+  | otherwise            = url
+  where idx = "index.html"
