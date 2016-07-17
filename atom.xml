@@ -11,8 +11,8 @@
     <updated>2016-09-01T00:00:00Z</updated>
     <entry>
     <title>Continuous Kernel Learning</title>
-    <link href="/pubs/2016-09-01-ckl.html" />
-    <id>/pubs/2016-09-01-ckl.html</id>
+    <link href="/pubs/2016-09-01-ckl/index.html" />
+    <id>/pubs/2016-09-01-ckl/index.html</id>
     <published>2016-09-01T00:00:00Z</published>
     <updated>2016-09-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
@@ -22,18 +22,28 @@
   <p class="blog-post-meta">
     Published 2016-09
     
-      by John Moeller, Vivek Srikumar, Sarathkrishna Swaminathan, Suresh Venkatasubramanian, and Dustin Webb
+      </br>2016 European Conference on Machine Learning and Principles and Practice of Knowledge Discovery (ECMLPKDD)
     
+    
+      </br>Riva di Garda, Italy
+    
+    
+      </br>Author(s): John Moeller, Vivek Srikumar, Sarathkrishna Swaminathan, Suresh Venkatasubramanian, and Dustin Webb
     
   </p>
+  
   <p>Kernel learning is the problem of determining the best kernel (either from a dictionary of fixed kernels, or from a smooth space of kernel representations) for a given task. In this paper, we describe a new approach to kernel learning that establishes connections between the Fourier-analytic representation of kernels arising out of Bochner's theorem and a specific kind of feed-forward network using cosine activations. We analyze the complexity of this space of hypotheses and demonstrate empirically that our approach provides scalable kernel learning superior in quality to prior approaches.</p>
+
+  <p class="blog-post-meta">
+    
+  </p>
 </div>
 ]]></summary>
 </entry>
 <entry>
     <title>A Unified View of Localized Kernel Learning</title>
-    <link href="/pubs/2016-05-01-ldmkl.html" />
-    <id>/pubs/2016-05-01-ldmkl.html</id>
+    <link href="/pubs/2016-05-01-ldmkl/index.html" />
+    <id>/pubs/2016-05-01-ldmkl/index.html</id>
     <published>2016-05-01T00:00:00Z</published>
     <updated>2016-05-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
@@ -43,18 +53,30 @@
   <p class="blog-post-meta">
     Published 2016-05
     
-      by John Moeller, Sarathkrishna Swaminathan, and Suresh Venkatasubramanian
+      </br>2016 SIAM International Conference on Data Mining (SDM)
     
+    
+      </br>Miami, Florida, USA
+    
+    
+      </br>Author(s): John Moeller, Sarathkrishna Swaminathan, and Suresh Venkatasubramanian
     
   </p>
+  
   <p>Multiple Kernel Learning, or MKL, extends (kernelized) SVM by attempting to learn not only a classifier/regressor but also the best kernel for the training task, usually from a combination of existing kernel functions. Most MKL methods seek the combined kernel that performs best over every training example, sacrificing performance in some areas to seek a global optimum. Localized kernel learning (LKL) overcomes this limitation by allowing the training algorithm to match a component kernel to the examples that can exploit it best. Several approaches to the localized kernel learning problem have been explored in the last several years. We unify many of these approaches under one simple system and design a new algorithm with improved performance. We also develop enhanced versions of existing algorithms, with an eye on scalability and performance.</p>
+
+  <p class="blog-post-meta">
+    
+      Preprint: <a href=http://arxiv.org/abs/1603.01374>http://arxiv.org/abs/1603.01374</a>
+    
+  </p>
 </div>
 ]]></summary>
 </entry>
 <entry>
     <title>Certifying and Removing Disparate Impact</title>
-    <link href="/pubs/2015-08-10-dispimp.html" />
-    <id>/pubs/2015-08-10-dispimp.html</id>
+    <link href="/pubs/2015-08-10-dispimp/index.html" />
+    <id>/pubs/2015-08-10-dispimp/index.html</id>
     <published>2015-08-10T00:00:00Z</published>
     <updated>2015-08-10T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
@@ -64,20 +86,32 @@
   <p class="blog-post-meta">
     Published 2015-08
     
-      by Michael Feldman, Sorelle Friedler, John Moeller, Carlos Scheidegger, and Suresh Venkatasubramanian
+      </br>21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining
     
+    
+      </br>Sydney, NSW, Australia
+    
+    
+      </br>Author(s): Michael Feldman, Sorelle Friedler, John Moeller, Carlos Scheidegger, and Suresh Venkatasubramanian
     
   </p>
+  
   <p>What does it mean for an algorithm to be biased? In U.S. law, unintentional bias is encoded via disparate impact, which occurs when a selection process has widely different outcomes for different groups, even as it appears to be neutral. This legal determination hinges on a definition of a protected class (ethnicity, gender) and an explicit description of the process.</p>
 <p>When computers are involved, determining disparate impact (and hence bias) is harder. It might not be possible to disclose the process. In addition, even if the process is open, it might be hard to elucidate in a legal setting how the algorithm makes its decisions. Instead of requiring access to the process, we propose making inferences based on the data it uses.</p>
 <p>We present four contributions. First, we link disparate impact to a measure of classification accuracy that while known, has received relatively little attention. Second, we propose a test for disparate impact based on how well the protected class can be predicted from the other attributes. Third, we describe methods by which data might be made unbiased. Finally, we present empirical evidence supporting the effectiveness of our test for disparate impact and our approach for both masking bias and preserving relevant information in the data. Interestingly, our approach resembles some actual selection practices that have recently received legal scrutiny.</p>
+
+  <p class="blog-post-meta">
+    
+      Preprint: <a href=http://arxiv.org/abs/1412.3756>http://arxiv.org/abs/1412.3756</a>
+    
+  </p>
 </div>
 ]]></summary>
 </entry>
 <entry>
     <title>A Geometric Algorithm for Scalable Multiple Kernel Learning</title>
-    <link href="/pubs/2014-04-22-mwumkl.html" />
-    <id>/pubs/2014-04-22-mwumkl.html</id>
+    <link href="/pubs/2014-04-22-mwumkl/index.html" />
+    <id>/pubs/2014-04-22-mwumkl/index.html</id>
     <published>2014-04-22T00:00:00Z</published>
     <updated>2014-04-22T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
@@ -87,18 +121,30 @@
   <p class="blog-post-meta">
     Published 2014-04
     
-      by John Moeller, Parasaran Raman, Suresh Venkatasubramanian, and Avishek Saha
+      </br>17th International Conference on Artificial Intelligence and Statistics (AISTATS)
     
+    
+      </br>Reykjavik, Iceland
+    
+    
+      </br>Author(s): John Moeller, Parasaran Raman, Suresh Venkatasubramanian, and Avishek Saha
     
   </p>
+  
   <p>We present a geometric formulation of the Multiple Kernel Learning (MKL) problem. To do so, we reinterpret the problem of learning kernel weights as searching for a kernel that maximizes the minimum (kernel) distance between two convex polytopes. This interpretation combined with additional structural insights from our geometric formulation allows us to reduce the MKL problem to a simple optimization routine that yields provable convergence as well as quality guarantees. As a result our method scales efficiently to much larger data sets than most prior methods can handle. Empirical evaluation on eleven datasets shows that we are significantly faster and even compare favorably with an uniform unweighted combination of kernels.</p>
+
+  <p class="blog-post-meta">
+    
+      Preprint: <a href=http://arxiv.org/abs/1206.5580>http://arxiv.org/abs/1206.5580</a>
+    
+  </p>
 </div>
 ]]></summary>
 </entry>
 <entry>
     <title>Approximate Bregman Near Neighbors in Sublinear Time: Beyond the Triangle Inequality</title>
-    <link href="/pubs/2013-08-01-appxbreg.html" />
-    <id>/pubs/2013-08-01-appxbreg.html</id>
+    <link href="/pubs/2013-08-01-appxbreg/index.html" />
+    <id>/pubs/2013-08-01-appxbreg/index.html</id>
     <published>2013-08-01T00:00:00Z</published>
     <updated>2013-08-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
@@ -108,18 +154,28 @@
   <p class="blog-post-meta">
     Published 2013-08
     
-      by Amirali Abdullah, John Moeller, and Suresh Venkatasubramanian
+      </br>International Journal of Computational Geometry & Applications
     
+    
+    
+      </br>Author(s): Amirali Abdullah, John Moeller, and Suresh Venkatasubramanian
     
   </p>
+  
   <p>Bregman divergences are important distance measures that are used extensively in data-driven applications such as computer vision, text mining, and speech processing, and are a key focus of interest in machine learning. Answering nearest neighbor (NN) queries under these measures is very important in these applications and has been the subject of extensive study, but is problematic because these distance measures lack metric properties like symmetry and the triangle inequality. In this paper, we present the first provably approximate nearest-neighbor (ANN) algorithms for a broad sub-class of Bregman divergences under some assumptions. Specifically, we examine Bregman divergences which can be decomposed along each dimension and our bounds also depend on restricting the size of our allowed domain. We obtain bounds for both the regular asymmetric Bregman divergences as well as their symmetrized versions. To do so, we develop two geometric properties vital to our analysis: a reverse triangle inequality (RTI) and a relaxed triangle inequality called μ-defectiveness where μ is a domain-dependent value. Bregman divergences satisfy the RTI but not μ-defectiveness. However, we show that the square root of a Bregman divergence does satisfy μ-defectiveness. This allows us to then utilize both properties in an efficient search data structure that follows the general two-stage paradigm of a ring-tree decomposition followed by a quad tree search used in previous near-neighbor algorithms for Euclidean space and spaces of bounded doubling dimension. Our first algorithm resolves a query for a d-dimensional (1+ε)-ANN in <span class="math inline"><em>O</em>((<em>μ</em>log(<em>n</em>)/<em>ε</em>)<sup><em>O</em>(<em>d</em>)</sup>)</span> time and <span class="math inline"><em>O</em>(<em>n</em>log<sup><em>d</em><em>m</em><em>i</em><em>n</em><em>u</em><em>s</em>1</sup><em>n</em>)</span> space and holds for generic μ-defective distance measures satisfying a RTI. Our second algorithm is more specific in analysis to the Bregman divergences and uses a further structural parameter, the maximum ratio of second derivatives over each dimension of our allowed domain <span class="math inline">(<em>c</em><sub>0</sub>)</span>. This allows us to locate a (1+ε)-ANN in <span class="math inline"><em>O</em>(log(<em>n</em>))</span> time and <span class="math inline"><em>O</em>(<em>n</em>)</span> space, where there is a further <span class="math inline">(<em>c</em><sub>0</sub>)<sup><em>d</em></sup></span> factor in the big-Oh for the query time.</p>
+
+  <p class="blog-post-meta">
+    
+      Preprint: <a href=http://arxiv.org/abs/1108.0835v7>http://arxiv.org/abs/1108.0835v7</a>
+    
+  </p>
 </div>
 ]]></summary>
 </entry>
 <entry>
     <title>Horoball Hulls and Extents in Positive Definite Space</title>
-    <link href="/pubs/2011-08-15-horoball.html" />
-    <id>/pubs/2011-08-15-horoball.html</id>
+    <link href="/pubs/2011-08-15-horoball/index.html" />
+    <id>/pubs/2011-08-15-horoball/index.html</id>
     <published>2011-08-15T00:00:00Z</published>
     <updated>2011-08-15T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
@@ -129,11 +185,23 @@
   <p class="blog-post-meta">
     Published 2011-08
     
-      by P. Thomas Fletcher, John Moeller, Jeff M. Phillips, and Suresh Venkatasubramanian
+      </br>12th International Symposium on Algorithms and Data Structures (ADSS)
     
+    
+      </br>New York, NY
+    
+    
+      </br>Author(s): P. Thomas Fletcher, John Moeller, Jeff M. Phillips, and Suresh Venkatasubramanian
     
   </p>
+  
   <p>The space of positive definite matrices P(n) is a Riemannian manifold with variable nonpositive curvature. It includes Euclidean space and hyperbolic space as submanifolds, and poses significant challenges for the design of algorithms for data analysis. In this paper, we develop foundational geometric structures and algorithms for analyzing collections of such matrices. A key technical contribution of this work is the use of horoballs, a natural generalization of halfspaces for non-positively curved Riemannian manifolds. We propose generalizations of the notion of a convex hull and a centerpoint and approximations of these structures using horoballs and based on novel decompositions of P(n). This leads to an algorithm for approximate hulls using a generalization of extents.</p>
+
+  <p class="blog-post-meta">
+    
+      Preprint: <a href=http://arxiv.org/abs/1108.0835v7>http://arxiv.org/abs/1108.0835v7</a>
+    
+  </p>
 </div>
 ]]></summary>
 </entry>
