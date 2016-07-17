@@ -4,12 +4,22 @@
   </h2>
   <p class="blog-post-meta">
     Published $date$
-    $if(author)$
-      by $author$
+    $if(venue)$
+      </br>$venue$
     $endif$
-    $if(arxiv)$
-      arXiv preprint: $arxiv$
+    $if(location)$
+      </br>$location$
+    $endif$
+    $if(author)$
+      </br>Author(s): $author$
     $endif$
   </p>
+  
   $body$
+
+  <p class="blog-post-meta">
+    $if(preprint)$
+      Preprint: <a href=$preprint$>$preprint$</a>
+    $endif$
+  </p>
 </div>
