@@ -17,18 +17,20 @@
     <updated>2016-09-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
   <h2 class="blog-post-title">
+    
     Continuous Kernel Learning
+    
   </h2>
-  <p class="blog-post-meta">
-    Published 2016-09
+  <p>
+    <span class="badge">2016-09</span>
     
-      </br>2016 European Conference on Machine Learning and Principles and Practice of Knowledge Discovery (ECMLPKDD)
-    
-    
-      </br>Riva di Garda, Italy
+      <span class="badge">ECMLPKDD</span>
     
     
-      </br>Author(s): John Moeller, Vivek Srikumar, Sarathkrishna Swaminathan, Suresh Venkatasubramanian, and Dustin Webb
+      <span class="badge">Riva di Garda, Italy</span>
+    
+    
+      </br><b>Author(s): John Moeller, Vivek Srikumar, Sarathkrishna Swaminathan, Suresh Venkatasubramanian, and Dustin Webb</b>
     
   </p>
   
@@ -48,18 +50,20 @@
     <updated>2016-05-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
   <h2 class="blog-post-title">
+    
     A Unified View of Localized Kernel Learning
+    
   </h2>
-  <p class="blog-post-meta">
-    Published 2016-05
+  <p>
+    <span class="badge">2016-05</span>
     
-      </br>2016 SIAM International Conference on Data Mining (SDM)
-    
-    
-      </br>Miami, Florida, USA
+      <span class="badge">SDM</span>
     
     
-      </br>Author(s): John Moeller, Sarathkrishna Swaminathan, and Suresh Venkatasubramanian
+      <span class="badge">Miami, Florida, USA</span>
+    
+    
+      </br><b>Author(s): John Moeller, Sarathkrishna Swaminathan, and Suresh Venkatasubramanian</b>
     
   </p>
   
@@ -81,18 +85,20 @@
     <updated>2015-08-10T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
   <h2 class="blog-post-title">
+    <a href="http://dl.acm.org/citation.cfm?id=2783311">
     Certifying and Removing Disparate Impact
+    </a>
   </h2>
-  <p class="blog-post-meta">
-    Published 2015-08
+  <p>
+    <span class="badge">2015-08</span>
     
-      </br>21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-    
-    
-      </br>Sydney, NSW, Australia
+      <span class="badge">KDD</span>
     
     
-      </br>Author(s): Michael Feldman, Sorelle Friedler, John Moeller, Carlos Scheidegger, and Suresh Venkatasubramanian
+      <span class="badge">Sydney, NSW, Australia</span>
+    
+    
+      </br><b>Author(s): Michael Feldman, Sorelle Friedler, John Moeller, Carlos Scheidegger, and Suresh Venkatasubramanian</b>
     
   </p>
   
@@ -116,18 +122,20 @@
     <updated>2014-04-22T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
   <h2 class="blog-post-title">
+    <a href="http://www.jmlr.org/proceedings/papers/v33/moeller14.html">
     A Geometric Algorithm for Scalable Multiple Kernel Learning
+    </a>
   </h2>
-  <p class="blog-post-meta">
-    Published 2014-04
+  <p>
+    <span class="badge">2014-04</span>
     
-      </br>17th International Conference on Artificial Intelligence and Statistics (AISTATS)
-    
-    
-      </br>Reykjavik, Iceland
+      <span class="badge">AISTATS</span>
     
     
-      </br>Author(s): John Moeller, Parasaran Raman, Suresh Venkatasubramanian, and Avishek Saha
+      <span class="badge">Reykjavik, Iceland</span>
+    
+    
+      </br><b>Author(s): John Moeller, Parasaran Raman, Suresh Venkatasubramanian, and Avishek Saha</b>
     
   </p>
   
@@ -149,16 +157,18 @@
     <updated>2013-08-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
   <h2 class="blog-post-title">
+    <a href="http://www.worldscientific.com/doi/abs/10.1142/S0218195913600066">
     Approximate Bregman Near Neighbors in Sublinear Time: Beyond the Triangle Inequality
+    </a>
   </h2>
-  <p class="blog-post-meta">
-    Published 2013-08
+  <p>
+    <span class="badge">2013-08</span>
     
-      </br>International Journal of Computational Geometry & Applications
+      <span class="badge">IJCG&A</span>
     
     
     
-      </br>Author(s): Amirali Abdullah, John Moeller, and Suresh Venkatasubramanian
+      </br><b>Author(s): Amirali Abdullah, John Moeller, and Suresh Venkatasubramanian</b>
     
   </p>
   
@@ -180,18 +190,20 @@
     <updated>2011-08-15T00:00:00Z</updated>
     <summary type="html"><![CDATA[<div class="blog-post">
   <h2 class="blog-post-title">
+    <a href="http://link.springer.com/chapter/10.1007%2F978-3-642-22300-6_33">
     Horoball Hulls and Extents in Positive Definite Space
+    </a>
   </h2>
-  <p class="blog-post-meta">
-    Published 2011-08
+  <p>
+    <span class="badge">2011-08</span>
     
-      </br>12th International Symposium on Algorithms and Data Structures (ADSS)
-    
-    
-      </br>New York, NY
+      <span class="badge">ADSS</span>
     
     
-      </br>Author(s): P. Thomas Fletcher, John Moeller, Jeff M. Phillips, and Suresh Venkatasubramanian
+      <span class="badge">New York, NY</span>
+    
+    
+      </br><b>Author(s): P. Thomas Fletcher, John Moeller, Jeff M. Phillips, and Suresh Venkatasubramanian</b>
     
   </p>
   
