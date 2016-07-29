@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/fishcorn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://moeller.fyi
+  * I am fishcorn (https://keybase.io/fishcorn) on keybase.
+  * I have a public key ASDuDJkzdsRI3EVhUzw-e3yWwFoHAAMPnBcYyuV0K3fOowo
+
+To do so, I am signing this object:
+
+{   
+    "body": {
+        "key": {
+            "eldest_kid": "0101cc0cd6d4f72c9c9b1f55f595aff20670f790ff832a963d032184566c5c8699180a",
+            "host": "keybase.io",
+            "kid": "0120ee0c993376c448dc4561533c3e7b7c96c05a0700030f9c1718cae5742b77cea30a",
+            "uid": "bb710e993982a61303ef57181f29dc19",
+            "username": "fishcorn"
+        },
+        "service": {
+            "hostname": "moeller.fyi",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1469767876,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1469767675,
+        "hash": "274c4a5ddde063b269d186c6754d6f514ee568d4fa7b98be339a646ec6edf022ec6f033068f5593b4f366aaa4a51110cad69a20d244cd82284dc9d4eddf2f7fc",
+        "seqno": 547623
+    },
+    "prev": "5d032573a9d5f8d8508e22a812cefe88f1b32729820d3662ef96805691a04f63",
+    "seqno": 20,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7gyZM3bESNxFYVM8Pnt8lsBaBwADD5wXGMrldCt3zqMKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxY2MwY2Q2ZDRmNzJjOWM5YjFmNTVmNTk1YWZmMjA2NzBmNzkwZmY4MzJhOTYzZDAzMjE4NDU2NmM1Yzg2OTkxODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWUwYzk5MzM3NmM0NDhkYzQ1NjE1MzNjM2U3YjdjOTZjMDVhMDcwMDAzMGY5YzE3MThjYWU1NzQyYjc3Y2VhMzBhIiwidWlkIjoiYmI3MTBlOTkzOTgyYTYxMzAzZWY1NzE4MWYyOWRjMTkiLCJ1c2VybmFtZSI6ImZpc2hjb3JuIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJtb2VsbGVyLmZ5aSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0Njk3Njc4NzYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2OTc2NzY3NSwiaGFzaCI6IjI3NGM0YTVkZGRlMDYzYjI2OWQxODZjNjc1NGQ2ZjUxNGVlNTY4ZDRmYTdiOThiZTMzOWE2NDZlYzZlZGYwMjJlYzZmMDMzMDY4ZjU1OTNiNGYzNjZhYWE0YTUxMTEwY2FkNjlhMjBkMjQ0Y2Q4MjI4NGRjOWQ0ZWRkZjJmN2ZjIiwic2Vxbm8iOjU0NzYyM30sInByZXYiOiI1ZDAzMjU3M2E5ZDVmOGQ4NTA4ZTIyYTgxMmNlZmU4OGYxYjMyNzI5ODIwZDM2NjJlZjk2ODA1NjkxYTA0ZjYzIiwic2Vxbm8iOjIwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQKt+C1YYEbaWPtMoGkbnE5dYFPR2B/mZ6wFjTqLeFWz9nbeR8Ftnz57QZIFtmpuQEEHm1AsUF99KYfbwxbjQaQ+oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBugY5zNm04o5oPde6sUsg618UQAIMevVFv5NTl45Y6X6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fishcorn
+
+==================================================================
