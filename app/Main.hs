@@ -10,6 +10,10 @@ import System.FilePath.Posix (takeBaseName,takeDirectory,(</>))
 main :: IO ()
 main =
   hakyll $ do
+    match "keybase.txt" $ do
+      route idRoute
+      compile copyFileCompiler
+
     match "images/*" $ do
       route idRoute
       compile copyFileCompiler
