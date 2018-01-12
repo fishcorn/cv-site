@@ -4,7 +4,7 @@ machine:
     America/Denver
     
   pre:
-    - curl -sSL https://get.haskellstack.org/ | sh
+    - curl -sSL https://get.haskellstack.org/ | sh -s - -f
 
 dependencies:
 
